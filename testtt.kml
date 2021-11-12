@@ -44,6 +44,27 @@
           </text>
         </BalloonStyle>
     </Style>
+    <Style id="mid-style">
+        <LabelStyle>
+                <scale>0</scale>
+        </LabelStyle>
+        <IconStyle>
+        <Icon>
+          <href>https://image.shutterstock.com/image-vector/halfway-vector-icon-linear-outline-260nw-1705531564.jpg</href>
+        </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>
+            <![CDATA[
+              <p align=center>
+              <img src="$[img]" width="280"><br><br>
+              <b>Stop:</b> $[name]<br>
+              <b>Location:</b> $[location]<br>
+              </p>
+            ]]>
+          </text>
+        </BalloonStyle>
+    </Style>    
     <Folder>
     <name>Stops</name>
         <Folder>
