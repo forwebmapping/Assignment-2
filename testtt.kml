@@ -396,6 +396,63 @@
                 <Point>
                     <coordinates>-120.2306,48.3306</coordinates>
                 </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+        <name>end points</name>    
+            <Placemark id='ST'>
+                <name>Southern Terminus</name>
+                <styleUrl>#terminus-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://seattlebackpackersmagazine.com/wp-content/uploads/2015/02/monument.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Southern Terminus</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Campo (Mexican Border), CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-116.460571,32.590503</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='NT'>
+                <name>Northern Terminus</name>
+                <styleUrl>#terminus-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://i.pinimg.com/originals/13/f5/d8/13f5d8cd5a9f9c86f7f45bc7debb1fa5.jpg </value>
+                    </Data>
+                    <Data name="name">
+                        <value>Northern Terminus</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Manning Park (Canadian Border), WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-120.799913,49.000239</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='MD'>
+                <name>Midpoint</name>
+                <styleUrl>#mid-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://i1.wp.com/www.intothewideopen.com/wp-content/uploads/2016/07/img_1587-1.jpg </value>
+                    </Data>
+                    <Data name="name">
+                        <value>Midpoint</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Chester, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.35593192725337,40.210217508122252</coordinates>
+                </Point>
             </Placemark>                              
         </Folder>
     </Folder>    
