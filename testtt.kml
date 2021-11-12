@@ -44,27 +44,6 @@
           </text>
         </BalloonStyle>
     </Style>
-    <Style id="mid-style">
-        <LabelStyle>
-                <scale>0</scale>
-        </LabelStyle>
-        <IconStyle>
-        <Icon>
-          <href>https://image.shutterstock.com/image-vector/halfway-vector-icon-linear-outline-260nw-1705531564.jpg</href>
-        </Icon>
-        </IconStyle>
-        <BalloonStyle>
-          <text>
-            <![CDATA[
-              <p align=center>
-              <img src="$[img]" width="280"><br><br>
-              <b>Stop:</b> $[name]<br>
-              <b>Location:</b> $[location]<br>
-              </p>
-            ]]>
-          </text>
-        </BalloonStyle>
-    </Style>    
     <Folder>
     <name>Stops</name>
         <Folder>
@@ -456,25 +435,7 @@
                 <Point>
                     <coordinates>-120.799913,49.000239</coordinates>
                 </Point>
-            </Placemark>
-            <Placemark id='MD'>
-                <name>Midpoint</name>
-                <styleUrl>#mid-style</styleUrl>
-                <ExtendedData>
-                    <Data name="img">
-                        <value>https://i1.wp.com/www.intothewideopen.com/wp-content/uploads/2016/07/img_1587-1.jpg </value>
-                    </Data>
-                    <Data name="name">
-                        <value>Midpoint</value>
-                    </Data>
-                    <Data name="location">
-                        <value>Chester, CA</value>
-                    </Data>
-                </ExtendedData>
-                <Point>
-                    <coordinates>-121.35593192725337,40.210217508122252</coordinates>
-                </Point>
-            </Placemark>                              
+            </Placemark>                            
         </Folder>
     </Folder>    
 </Document>
