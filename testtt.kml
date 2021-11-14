@@ -1,0 +1,442 @@
+<?xml version="2.2" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>PCT Stops</name>
+    <Style id="terminus-style">
+        <LabelStyle>
+                <scale>0</scale>
+        </LabelStyle>
+        <IconStyle>
+        <Icon>
+          <href>https://image.pngaaa.com/406/1433406-middle.png</href>
+        </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>
+            <![CDATA[
+              <p align=center>
+              <img src="$[img]" width="280"><br><br>
+              <b>Stop:</b> $[name]<br>
+              <b>Location:</b> $[location]<br>
+              </p>
+            ]]>
+          </text>
+        </BalloonStyle>
+    </Style>
+    <Style id="stops-style">
+        <LabelStyle>
+                <scale>0</scale>
+        </LabelStyle>
+        <IconStyle>
+        <Icon>
+          <href>https://img.icons8.com/material-sharp/24/000000/circled.png</href>
+        </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>
+            <![CDATA[
+              <p align=center>
+              <img src="$[img]" width="280"><br><br>
+              <b>Stop:</b> $[name]<br>
+              <b>Location:</b> $[location]<br>
+              </p>
+            ]]>
+          </text>
+        </BalloonStyle>
+    </Style>
+    <Folder>
+    <name>Stops</name>
+        <Folder>
+        <name>Stops California</name>
+            <Placemark id='VAS'>
+                <name>Vasquez Rocks</name>
+                <styleUrl>#stops-style</styleUrl>
+                    <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SUNSET_ROCKS_San_Andreas_Fault.jpg/160px-SUNSET_ROCKS_San_Andreas_Fault.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Vasquez Rocks</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Agua Dulce, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-118.1900,34.2848</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='GTW'>
+                <name>Golden Trout Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mulkey_Meadows_on_the_way_back_to_Trail_Pass_%2844536422422%29.jpg/160px-Mulkey_Meadows_on_the_way_back_to_Trail_Pass_%2844536422422%29.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Golden Trout Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Tulare County/ Inyo County, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-118.1919,36.1800</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='FP'>
+                <name>Forester Pass</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/View_from_Forester_Pass.jpg/800px-View_from_Forester_Pass.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Forester Pass</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Tulare County, CA</value>
+                    </Data> 
+                </ExtendedData>
+                <Point>
+                    <coordinates>-118.2219,36.4139</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='JMW'>
+                <name>John Muir Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Lake_of_the_Lone_Indian_JMW.jpg/160px-Lake_of_the_Lone_Indian_JMW.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>John Muir Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Fresno, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-118.4842,36.5833</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='DPNM'>
+                <name>Devils Postpile National Monument</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Devils_Postpile_from_base-1200px.jpg/152px-Devils_Postpile_from_base-1200px.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Devils Postpile National Monument</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Mammoth Lakes, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-119.0504,37.3728</coordinates>
+                </Point>
+            </Placemark>
+             <Placemark id='AAW'>
+                <name>Ansel Adams Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mt_Banner_and_Thousand_Island_Lake.jpg/160px-Mt_Banner_and_Thousand_Island_Lake.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Ansel Adams Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Fresno, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-119.11,37.41</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='LVNP'>
+                <name>Lassen Volcanic National Park</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Broken_face_of_Brokeoff_Mountain.jpg/160px-Broken_face_of_Brokeoff_Mountain.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Lassen Volcanic National Park</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Lassen, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.3018,40.2916</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='RW'>
+                <name>Russian Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Russian_Lake_in_the_Russian_WIlderness.jpg/270px-Russian_Lake_in_the_Russian_WIlderness.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Russian Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Eureka, CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-122.5628,41.1830</coordinates>
+                </Point>
+            </Placemark>                                               
+        </Folder>
+        <Folder>
+        <name>Oregon</name>
+            <Placemark id='CLNP'>
+                <name>Crater Lake National Park</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Crater_Lake_and_Wizard_Island_-_panoramio.jpg/160px-Crater_Lake_and_Wizard_Island_-_panoramio.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Crater Lake National Park</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Klamath Falls, OR</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-122.0853,42.5443</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='MJW'>
+                <name>Mount Jefferson Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://en.wikipedia.org/wiki/File:Jefferson_Park_Meadows_Mount_Jefferson_Wilderness.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Mount Jefferson Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Sisters, OR</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.475440,44.403105</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='TS'>
+                <name>Three Sisters</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Three_sisters2.jpg/272px-Three_sisters2.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Three Sisters</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Lane, OR</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.4609,44.0612</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='TFJ'>
+                <name>Three Fingered Jack</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Three_fingered_jack_from_southwest_on_PCT_P3025.jpeg/272px-Three_fingered_jack_from_southwest_on_PCT_P3025.jpeg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Three Fingered Jack</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Linn/ Jefferson Counties, OR</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.5035,44.2844</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='MHW'>
+                <name>Mount Hood Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mt_Hood_Wilderness_near_Ramona_Falls.jpg/160px-Mt_Hood_Wilderness_near_Ramona_Falls.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Mount Hood Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Clackamas/ Hood River, OR</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.45,45.23</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='BOG'>
+                <name>Bridge of gods</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BridgeOfTheGods2.jpg/160px-BridgeOfTheGods2.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Bridge of gods</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Cascade Locks, OR</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.9012,45.6623</coordinates>
+                </Point>
+            </Placemark>                  
+        </Folder>
+        <Folder>
+        <name>Washington</name>
+            <Placemark id='MA'>
+                <name>Mount Adams</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mt_Adams_and_the_Ridge_of_Wonders-Gifford_Pinchot_%2823834057801%29.jpg/160px-Mt_Adams_and_the_Ridge_of_Wonders-Gifford_Pinchot_%2823834057801%29.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Mount Adams</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Yakima/ Skamania County, WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.2927,46.1209</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='GRW'>
+                <name>Goat Rocks Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/OldSnowy_15A.JPG/160px-OldSnowy_15A.JPG</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Goat Rocks Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Yakima, WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.2714,46.3044</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='MR'>
+                <name>Mount Rainier</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://en.wikipedia.org/wiki/File:Upper_Tipsoo_Lake_reflection.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Mount Rainier</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Pierce County, WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.4537,45.5110</coordinates>
+                </Point>
+            </Placemark>   
+ 
+            <Placemark id='GPW'>
+                <name>Glacier Peak Wilderness</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N2_Glacier_Peak.jpg/160px-N2_Glacier_Peak.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Glacier Peak Wilderness</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Seattle, WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.0650,45.0645</coordinates>
+                </Point>
+            </Placemark>   
+            <Placemark id='OWNF'>
+                <name>Okanogan National Forest</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mount_Ballard_from_PCT.jpg/160px-Mount_Ballard_from_PCT.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Okanogan National Forest</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Omak, WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-120.2306,48.3306</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+        <name>end points</name>    
+            <Placemark id='ST'>
+                <name>Southern Terminus</name>
+                <styleUrl>#terminus-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://seattlebackpackersmagazine.com/wp-content/uploads/2015/02/monument.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Southern Terminus</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Campo (Mexican Border), CA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-116.460571,32.590503</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id='NT'>
+                <name>Northern Terminus</name>
+                <styleUrl>#terminus-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://i.pinimg.com/originals/13/f5/d8/13f5d8cd5a9f9c86f7f45bc7debb1fa5.jpg </value>
+                    </Data>
+                    <Data name="name">
+                        <value>Northern Terminus</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Manning Park (Canadian Border), WA</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-120.799913,49.000239</coordinates>
+                </Point>
+            </Placemark>                            
+        </Folder>
+    </Folder>    
+</Document>
+</kml>
