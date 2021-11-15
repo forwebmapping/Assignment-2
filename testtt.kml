@@ -7,6 +7,7 @@
                 <scale>0</scale>
         </LabelStyle>
         <IconStyle>
+        <scale>1</scale>
         <Icon>
           <href>https://image.pngaaa.com/406/1433406-middle.png</href>
         </Icon>
@@ -28,6 +29,7 @@
                 <scale>0</scale>
         </LabelStyle>
         <IconStyle>
+        <scale>0.5</scale>
         <Icon>
           <href>https://cdn2.iconfinder.com/data/icons/font-awesome/1792/dot-circle-o-512.png</href>
         </Icon>
