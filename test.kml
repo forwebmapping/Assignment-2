@@ -220,7 +220,7 @@
                 <styleUrl>#stops-style</styleUrl>
                 <ExtendedData>
                     <Data name="img">
-                        <value>https://en.wikipedia.org/wiki/File:Jefferson_Park_Meadows_Mount_Jefferson_Wilderness.jpg</value>
+                        <value>https://upload.wikimedia.org/wikipedia/commons/4/4a/Jefferson_Park_Meadows_Mount_Jefferson_Wilderness.jpg</value>
                     </Data>
                     <Data name="name">
                         <value>Mount Jefferson Wilderness</value>
@@ -349,7 +349,7 @@
                 <styleUrl>#stops-style</styleUrl>
                 <ExtendedData>
                     <Data name="img">
-                        <value>https://en.wikipedia.org/wiki/File:Upper_Tipsoo_Lake_reflection.jpg</value>
+                        <value>https://upload.wikimedia.org/wikipedia/commons/e/eb/Mount_Rainier_from_west.jpg</value>
                     </Data>
                     <Data name="name">
                         <value>Mount Rainier</value>
