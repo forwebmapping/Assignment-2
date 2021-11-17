@@ -19,6 +19,7 @@
               <img src="$[img]" width="280"><br><br>
               <b>Stop:</b> $[name]<br>
               <b>Location:</b> $[location]<br>
+              <b>Elevation:</b> $[elevation]<br>
               </p>
             ]]>
           </text>
@@ -41,6 +42,7 @@
               <img src="$[img]" width="280"><br><br>
               <b>Stop:</b> $[name]<br>
               <b>Location:</b> $[location]<br>
+              <b>Elevation:</b> $[elevation]<br>
               </p>
             ]]>
           </text>
@@ -63,6 +65,9 @@
                     <Data name="location">
                         <value>Agua Dulce, CA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>720.4749146 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-118.31657,34.479887</coordinates>
@@ -81,6 +86,9 @@
                     <Data name="location">
                         <value>Tulare County/ Inyo County, CA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>2857.3601074 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-118.321944,36.3</coordinates>
@@ -98,6 +106,9 @@
                     </Data>
                     <Data name="location">
                         <value>Tulare County, CA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>4014.1386719 m</value>
                     </Data> 
                 </ExtendedData>
                 <Point>
@@ -117,6 +128,9 @@
                     <Data name="location">
                         <value>Fresno, CA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>2480.7287598 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-118.811667,36.975833</coordinates>
@@ -134,6 +148,9 @@
                     </Data>
                     <Data name="location">
                         <value>Mammoth Lakes, CA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>2353.1254883 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -153,6 +170,9 @@
                     <Data name="location">
                         <value>Fresno, CA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>3165.1091309 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-119.183333,37.683333</coordinates>
@@ -171,6 +191,9 @@
                     <Data name="location">
                         <value>Lassen, CA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>3144.5322266 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-121.504981,40.487659</coordinates>
@@ -188,6 +211,9 @@
                     </Data>
                     <Data name="location">
                         <value>Eureka, CA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>1967.8217773 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -210,6 +236,9 @@
                     <Data name="location">
                         <value>Klamath Falls, OR</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>2166.6215820 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-122.14807,42.91183</coordinates>
@@ -227,6 +256,9 @@
                     </Data>
                     <Data name="location">
                         <value>Sisters, OR</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>3023.6223145 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -246,6 +278,9 @@
                     <Data name="location">
                         <value>Lane, OR</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>3151.3605957 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-121.769206,44.103449</coordinates>
@@ -263,6 +298,9 @@
                     </Data>
                     <Data name="location">
                         <value>Linn/ Jefferson Counties, OR</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>2127.7851562 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -282,6 +320,9 @@
                     <Data name="location">
                         <value>Clackamas/ Hood River, OR</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>1698.8195801 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-121.75,45.383333</coordinates>
@@ -299,6 +340,9 @@
                     </Data>
                     <Data name="location">
                         <value>Cascade Locks, OR</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>23.6690445 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -321,6 +365,9 @@
                     <Data name="location">
                         <value>Yakima/ Skamania County, WA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>3745.1345215 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-121.490895,46.202412</coordinates>
@@ -338,6 +385,9 @@
                     </Data>
                     <Data name="location">
                         <value>Yakima, WA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>2387.9487305 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -357,11 +407,35 @@
                     <Data name="location">
                         <value>Pierce County, WA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>4390.9208984 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-121.760374,46.852886</coordinates>
                 </Point>
             </Placemark>   
+            <Placemark id='KK'>
+                <name>Kendall Katwalk</name>
+                <styleUrl>#stops-style</styleUrl>
+                <ExtendedData>
+                    <Data name="img">
+                        <value>https://upload.wikimedia.org/wikipedia/commons/a/a1/Kendall_Katwalk_Trail.jpg</value>
+                    </Data>
+                    <Data name="name">
+                        <value>Kendall Katwalk</value>
+                    </Data>
+                    <Data name="location">
+                        <value>Kittitas County, WA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>1630.8419189 m</value>
+                    </Data>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-121.378716,47.451796</coordinates>
+                </Point>
+            </Placemark>  
  
             <Placemark id='GPW'>
                 <name>Glacier Peak Wilderness</name>
@@ -375,6 +449,9 @@
                     </Data>
                     <Data name="location">
                         <value>Seattle, WA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>3172.1435547 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -393,6 +470,9 @@
                     </Data>
                     <Data name="location">
                         <value>Omak, WA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>875.2045898 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
@@ -415,6 +495,9 @@
                     <Data name="location">
                         <value>Campo (Mexican Border), CA</value>
                     </Data>
+                    <Data name="elevation">
+                        <value>869.6576538 m</value>
+                    </Data>
                 </ExtendedData>
                 <Point>
                     <coordinates>-116.460571,32.590503</coordinates>
@@ -432,6 +515,9 @@
                     </Data>
                     <Data name="location">
                         <value>Manning Park (Canadian Border), WA</value>
+                    </Data>
+                    <Data name="elevation">
+                        <value>1336.2453613 m</value>
                     </Data>
                 </ExtendedData>
                 <Point>
