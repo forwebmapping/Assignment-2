@@ -25,7 +25,7 @@
           </text>
         </BalloonStyle>
     </Style>
-        <Style id="terminus-style">
+    <Style id="terminus-style">
         <LabelStyle>
                 <scale>0</scale>
         </LabelStyle>
