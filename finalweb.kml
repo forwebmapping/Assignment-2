@@ -96,27 +96,6 @@
                     <coordinates>-118.31657,34.479887</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id='GTW'>
-                <name>Golden Trout Wilderness</name>
-                <styleUrl>#stops-style</styleUrl>
-                <ExtendedData>
-                    <Data name="img">
-                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mulkey_Meadows_on_the_way_back_to_Trail_Pass_%2844536422422%29.jpg/160px-Mulkey_Meadows_on_the_way_back_to_Trail_Pass_%2844536422422%29.jpg</value>
-                    </Data>
-                    <Data name="name">
-                        <value>Golden Trout Wilderness</value>
-                    </Data>
-                    <Data name="location">
-                        <value>Tulare County/ Inyo County, CA</value>
-                    </Data>
-                    <Data name="elevation">
-                        <value>2857.3601074 m</value>
-                    </Data>
-                </ExtendedData>
-                <Point>
-                    <coordinates>-118.321944,36.3</coordinates>
-                </Point>
-            </Placemark>
             <Placemark id='FP'>
                 <name>Forester Pass</name>
                 <styleUrl>#stops-style</styleUrl>
@@ -138,27 +117,7 @@
                     <coordinates>-118.37204,36.694102</coordinates>
                 </Point>
             </Placemark>
-            <Placemark id='JMW'>
-                <name>John Muir Wilderness</name>
-                <styleUrl>#stops-style</styleUrl>
-                <ExtendedData>
-                    <Data name="img">
-                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Lake_of_the_Lone_Indian_JMW.jpg/160px-Lake_of_the_Lone_Indian_JMW.jpg</value>
-                    </Data>
-                    <Data name="name">
-                        <value>John Muir Wilderness</value>
-                    </Data>
-                    <Data name="location">
-                        <value>Fresno, CA</value>
-                    </Data>
-                    <Data name="elevation">
-                        <value>2480.7287598 m</value>
-                    </Data>
-                </ExtendedData>
-                <Point>
-                    <coordinates>-118.811667,36.975833</coordinates>
-                </Point>
-            </Placemark>
+            
             <Placemark id='DPNM'>
                 <name>Devils Postpile National Monument</name>
                 <styleUrl>#stops-style</styleUrl>
@@ -396,48 +355,6 @@
                     <coordinates>-121.490895,46.202412</coordinates>
                 </Point>
             </Placemark>   
-            <Placemark id='GRW'>
-                <name>Goat Rocks Wilderness</name>
-                <styleUrl>#stops-style</styleUrl>
-                <ExtendedData>
-                    <Data name="img">
-                        <value>https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/OldSnowy_15A.JPG/160px-OldSnowy_15A.JPG</value>
-                    </Data>
-                    <Data name="name">
-                        <value>Goat Rocks Wilderness</value>
-                    </Data>
-                    <Data name="location">
-                        <value>Yakima, WA</value>
-                    </Data>
-                    <Data name="elevation">
-                        <value>2387.9487305 m</value>
-                    </Data>
-                </ExtendedData>
-                <Point>
-                    <coordinates>-121.453889,46.512222</coordinates>
-                </Point>
-            </Placemark>   
-            <Placemark id='MR'>
-                <name>Mount Rainier</name>
-                <styleUrl>#stops-style</styleUrl>
-                <ExtendedData>
-                    <Data name="img">
-                        <value>https://upload.wikimedia.org/wikipedia/commons/e/eb/Mount_Rainier_from_west.jpg</value>
-                    </Data>
-                    <Data name="name">
-                        <value>Mount Rainier</value>
-                    </Data>
-                    <Data name="location">
-                        <value>Pierce County, WA</value>
-                    </Data>
-                    <Data name="elevation">
-                        <value>4390.9208984 m</value>
-                    </Data>
-                </ExtendedData>
-                <Point>
-                    <coordinates>-121.760374,46.852886</coordinates>
-                </Point>
-            </Placemark>   
             <Placemark id='KK'>
                 <name>Kendall Katwalk</name>
                 <styleUrl>#stops-style</styleUrl>
@@ -459,7 +376,6 @@
                     <coordinates>-121.378716,47.451796</coordinates>
                 </Point>
             </Placemark>  
- 
             <Placemark id='GPW'>
                 <name>Glacier Peak Wilderness</name>
                 <styleUrl>#stops-style</styleUrl>
